@@ -28,15 +28,6 @@ class main:
         rect = pygame.rect.Rect(120, 55, 650, 500)
         pygame.draw.rect(self.screen, 'white', rect, 1)
 
-        #Rainbow Colors
-
-        self.violet = (148.0, 0.0, 211.0)
-        self.indigo = (75.0, 0.0, 120.0)
-        self.blue = (0.0, 0.0, 255.0)
-        self.green = (0, 255, 0)
-        self.yellow = (255, 255, 0)
-        self.orange = (255, 127, 0)
-        self.red = (255, 0, 0)
 
     def run(self):
 
